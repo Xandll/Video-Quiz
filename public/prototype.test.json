@@ -3,11 +3,57 @@
         "easy": [
             {
                 "index": 1,
-                "URL": "",
+                "URL": "https://www.youtube.com/watch?v=fWjsdhR3z3c",
                 "questions": [
                     {
-                        "index": "",
-                        "question": ""
+                        "index": 1,
+                        "time": 118,
+                        "rightAnswer": 3,
+                        "question": "Welche der folgenden Aussagen über Variablen in Python ist korrekt?",
+                        "answer1": "Variablen können nur Zahlen enthalten.",
+                        "answer2": "Python unterscheidet nicht zwischen Groß- und Kleinschreibung.",
+                        "answer3": "Variablennamen mit mehreren Wörtern sollten durch Unterstriche getrennt werden.",
+                        "answer4": "Strings müssen immer in doppelten Anführungszeichen stehen."
+                    },
+                    {
+                        "index": 2,
+                        "time": 243,
+                        "rightAnswer": 1,
+                        "question": "Welche der folgenden Datentypen gibt es in Python?",
+                        "answer1": "Integer, String, Boolean, List",
+                        "answer2": "Character, Float, Boolean, Set",
+                        "answer3": "Array, Dictionary, Byte, Character",
+                        "answer4": "Tuple, Stack, Queue, LinkedList"
+                    },
+                    {
+                        "index": 3,
+                        "time": 367,
+                        "rightAnswer": 2,
+                        "question": "Was passiert, wenn du versuchst, eine Zahl zu einem String ohne Konvertierung zu addieren?",
+                        "answer1": "Die Zahl wird automatisch zu einem String konvertiert.",
+                        "answer2": "Python gibt eine Fehlermeldung aus.",
+                        "answer3": "Die Addition funktioniert nur, wenn die Zahl eine Ganzzahl ist.",
+                        "answer4": "Python ignoriert die Zahl und verwendet nur den String."
+                    },
+                    {
+                        "index": 4,
+                        "time": 495,
+                        "rightAnswer": 2,
+                        "question": "Was macht eine `while`-Schleife in Python?",
+                        "answer1": "Sie läuft eine feste Anzahl von Durchläufen.",
+                        "answer2": "Sie läuft, solange die Bedingung `True` ist.",
+                        "answer3": "Sie kann nur für Zahlen verwendet werden.",
+                        "answer4": "Sie wird nach genau 5 Durchläufen automatisch beendet."
+                    },
+                    {
+                        "index": 5,
+                        "time": 589,
+                        "rightAnswer": 3,
+                        "question": "Wofür wird der `try-except`-Block in Python verwendet?",
+                        "answer1": "Um Code auszuführen, ohne dass Fehler auftreten können.",
+                        "answer2": "Um eine Schleife zu erstellen, die nur bei Fehlern ausgeführt wird.",
+                        "answer3": "Um Fehler abzufangen und das Programm nicht abstürzen zu lassen.",
+                        "answer4": "Um eine Ausnahme zu erzwingen, wenn kein Fehler auftritt."
                     }
                 ]
             }
