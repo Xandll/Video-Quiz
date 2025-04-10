@@ -34,7 +34,11 @@ export default function VideoPlayer() {
     return <div>Loading...</div>;
   }
 
-//  if(yourawnser)
+  const handleAnswer = (selectedAnswer) => {
+    setAnswer(selectedAnswer);
+    setShowPopUp(false);
+    setIsPlaying(true);
+  };
 
   return (
     <div className="react-player-wrapper">
@@ -66,6 +70,7 @@ export default function VideoPlayer() {
           answer2={currentQuestion.answer2}
           answer3={currentQuestion.answer3}
           answer4={currentQuestion.answer4}
+          onAnswer={handleAnswer}
         />
       )}
     </div>
