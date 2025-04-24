@@ -7,7 +7,7 @@
                 "questions": [
                     {
                         "index": 1,
-                        "time": 10,
+                        "time": 1,
                         "rightAnswer": 3,
                         "question": "Welche der folgenden Aussagen über Variablen in Python ist korrekt?",
                         "answer1": "Variablen können nur Zahlen enthalten.",

@@ -9,6 +9,8 @@ export default function VideoPlayer() {
   const [isPlaying, setIsPlaying] = useState(true);
   const [showPopUp, setShowPopUp] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState(null);
+  const [answer, setAnswer] = useState(null);
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
 
   useEffect(() => {
     const getData = async () => {
@@ -30,14 +32,23 @@ export default function VideoPlayer() {
     getData();
   }, []);
 
-  if (!data) {
+
+  if (!data)
     return <div>Loading...</div>;
-  }
+  
 
   const handleAnswer = (selectedAnswer) => {
     setAnswer(selectedAnswer);
-    setShowPopUp(false);
-    setIsPlaying(true);
+    if (selectedAnswer === currentQuestion.rightAnswer) {
+      setShowPopUp(false);
+      setIsPlaying(true);
+      setCurrentQuestionIndex(prev => prev + 1);
+      setAnswer(null);
+      return true;
+    } else {
+      console.log("Antwort ist falsch");
+      return false;
+    }
   };
 
   return (
@@ -50,17 +61,14 @@ export default function VideoPlayer() {
         width="90%"
         height="90vh"
         onProgress={(state) => {
-          data.Python.easy[0].questions.forEach((question) => {
-            if (state.playedSeconds > question.time) {
-              playerRef.current?.seekTo(question.time);
-              setIsPlaying(false);
-              setShowPopUp(true);
-              setCurrentQuestion(question);
-            }
-            else{
-              setShowPopUp(true);
-            }
-          });
+          const questions = data.Python.easy[0].questions;
+          const question = questions[currentQuestionIndex];
+          if (question && state.playedSeconds > question.time) {
+            playerRef.current?.seekTo(question.time);
+            setIsPlaying(false);
+            setShowPopUp(true);
+            setCurrentQuestion(question);
+          }
         }}
       />
       {showPopUp && currentQuestion && (
