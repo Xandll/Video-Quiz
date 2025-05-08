@@ -1,0 +1,23 @@
+.difficulty-selection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.difficulty-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.difficulty-buttons button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.difficulty-buttons button:hover {
+  background-color: #f0f0f0;
+}
+
