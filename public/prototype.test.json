@@ -4,6 +4,7 @@
             {
                 "index": 1,
                 "URL": "https://www.youtube.com/watch?v=fWjsdhR3z3c",
+                "title": "Python in 10 Minuten",
                 "questions": [
                     {
                         "index": 1,
@@ -54,6 +55,572 @@
                         "answer2": "Um eine Schleife zu erstellen, die nur bei Fehlern ausgeführt wird.",
                         "answer3": "Um Fehler abzufangen und das Programm nicht abstürzen zu lassen.",
                         "answer4": "Um eine Ausnahme zu erzwingen, wenn kein Fehler auftritt."
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "URL": "https://www.youtube.com/watch?v=6i3e-j3wSf0",
+                "title": "Python Grundlagen Quiz (Deutsch)",
+                "questions": [
+                    {
+                        "index": 1,
+                        "time": 125,
+                        "rightAnswer": 1,
+                        "question": "Welche Website sollte man besuchen, um Python herunterzuladen?",
+                        "answer1": "python.org",
+                        "answer2": "code.visualstudio.com",
+                        "answer3": "microsoft.com",
+                        "answer4": "pypl.org"
+                    },
+                    {
+                        "index": 2,
+                        "time": 250,
+                        "rightAnswer": 2,
+                        "question": "Welchen Code-Editor empfiehlt der Sprecher für die Python-Lektionen?",
+                        "answer1": "Sublime Text",
+                        "answer2": "Visual Studio Code",
+                        "answer3": "Atom",
+                        "answer4": "Notepad++"
+                    },
+                    {
+                        "index": 3,
+                        "time": 324,
+                        "rightAnswer": 3,
+                        "question": "Welche Erweiterung sollte man in Visual Studio Code für Python installieren?",
+                        "answer1": "Python Debugger",
+                        "answer2": "Python Formatter",
+                        "answer3": "Python von Microsoft",
+                        "answer4": "Python Snippets"
+                    },
+                    {
+                        "index": 4,
+                        "time": 421,
+                        "rightAnswer": 1,
+                        "question": "Welche Tastenkombination öffnet die Befehlspalette in Visual Studio Code (Windows)?",
+                        "answer1": "Strg + Umschalt + P",
+                        "answer2": "Strg + P",
+                        "answer3": "Alt + Umschalt + P",
+                        "answer4": "Win + Umschalt + P"
+                    },
+                    {
+                        "index": 5,
+                        "time": 517,
+                        "rightAnswer": 2,
+                        "question": "Welche Tastenkombination öffnet ein neues Terminal in Visual Studio Code (Windows)?",
+                        "answer1": "Strg + `",
+                        "answer2": "Strg + Umschalt + `",
+                        "answer3": "Alt + `",
+                        "answer4": "Alt + Umschalt + `"
+                    },
+                    {
+                        "index": 6,
+                        "time": 622,
+                        "rightAnswer": 1,
+                        "question": "Welchen Befehl verwendet man im Terminal (Windows), um die Python-Version zu überprüfen?",
+                        "answer1": "py -3 --version",
+                        "answer2": "python --version",
+                        "answer3": "python3 --version",
+                        "answer4": "version python"
+                    },
+                    {
+                        "index": 7,
+                        "time": 738,
+                        "rightAnswer": 3,
+                        "question": "Wofür steht die Abkürzung REPL im Kontext von Python?",
+                        "answer1": "Read Execute Program Loop",
+                        "answer2": "Run Evaluate Print Language",
+                        "answer3": "Read Evaluate Print Loop",
+                        "answer4": "Realtime Execution Python Language"
+                    },
+                    {
+                        "index": 8,
+                        "time": 857,
+                        "rightAnswer": 2,
+                        "question": "Mit welchem Befehl verlässt man die Python REPL?",
+                        "answer1": "exit()",
+                        "answer2": "quit()",
+                        "answer3": "close()",
+                        "answer4": "bye()"
+                    },
+                    {
+                        "index": 9,
+                        "time": 944,
+                        "rightAnswer": 3,
+                        "question": "Welche Tastenkombination erstellt eine neue Datei in Visual Studio Code?",
+                        "answer1": "Strg + O",
+                        "answer2": "Strg + S",
+                        "answer3": "Strg + N",
+                        "answer4": "Strg + C"
+                    },
+                    {
+                        "index": 10,
+                        "time": 1037,
+                        "rightAnswer": 1,
+                        "question": "Welche Dateiendung wird üblicherweise für Python-Dateien verwendet?",
+                        "answer1": ".py",
+                        "answer2": ".txt",
+                        "answer3": ".js",
+                        "answer4": ".html"
+                    },
+                    {
+                        "index": 11,
+                        "time": 1138,
+                        "rightAnswer": 2,
+                        "question": "Welche Möglichkeit wird im Video gezeigt, um eine Python-Datei direkt aus Visual Studio Code auszuführen?",
+                        "answer1": "Über das 'Ausführen'-Menü im Terminal.",
+                        "answer2": "Über die Play-Schaltfläche in der oberen rechten Ecke.",
+                        "answer3": "Durch Doppelklicken auf die Datei im Datei-Explorer.",
+                        "answer4": "Mit dem Befehl 'run' im Editor."
+                    },
+                    {
+                        "index": 12,
+                        "time": 1250,
+                        "rightAnswer": 1,
+                        "question": "Welchen Befehl verwendet man im Terminal (im entsprechenden Verzeichnis), um die Python-Datei 'hello.py' auszuführen (Windows)?",
+                        "answer1": "py hello.py",
+                        "answer2": "python hello.py",
+                        "answer3": "python3 hello.py",
+                        "answer4": "execute hello.py"
+                    },
+                    {
+                        "index": 13,
+                        "time": 1317,
+                        "rightAnswer": 2,
+                        "question": "Welche Option im Kontextmenü des Datei-Explorers von Visual Studio Code ermöglicht das Ausführen der aktuellen Python-Datei im Terminal?",
+                        "answer1": "Datei ausführen",
+                        "answer2": "Python-Datei im Terminal ausführen",
+                        "answer3": "Im Terminal öffnen",
+                        "answer4": "Debuggen starten"
+                    }
+                ]
+            }
+        ],
+        "medium": [
+            {
+                "index": 3,
+                "URL": "https://www.youtube.com/watch?v=KSiRzuSx120",
+                "title": "Fortgeschrittenes Python Programmieren - Dunder/Magic Methods",
+                "description": "Einführung in fortgeschrittene Python-Konzepte: Magic Methods (Dunder).",
+                "questions": [
+                    {
+                        "index": 1,
+                        "time": 111,
+                        "rightAnswer": 1,
+                        "question": "Worum geht es in dieser neuen Tutorialreihe?",
+                        "answer1": "Fortgeschrittenes Python Programmieren",
+                        "answer2": "Spezialisierte Python-Bereiche wie Machine Learning",
+                        "answer3": "Python für Anfänger",
+                        "answer4": "Intermediate Python für Webentwicklung"
+                    },
+                    {
+                        "index": 2,
+                        "time": 123,
+                        "rightAnswer": 2,
+                        "question": "Was bedeutet 'Dunder'?",
+                        "answer1": "Ein spezieller Datentyp in Python",
+                        "answer2": "Double Underscores (doppelte Unterstriche)",
+                        "answer3": "Eine Abkürzung für 'function'",
+                        "answer4": "Ein fortgeschrittenes Schleifenkonzept"
+                    },
+                    {
+                        "index": 3,
+                        "time": 134,
+                        "rightAnswer": 1,
+                        "question": "Welche Dunder-Methode wird als Konstruktor einer Klasse verwendet?",
+                        "answer1": "__init__",
+                        "answer2": "__del__",
+                        "answer3": "__add__",
+                        "answer4": "__str__"
+                    },
+                    {
+                        "index": 4,
+                        "time": 251,
+                        "rightAnswer": 4,
+                        "question": "Welchen Editor verwendet der Sprecher in dieser Tutorialreihe?",
+                        "answer1": "Python IDLE",
+                        "answer2": "PyCharm",
+                        "answer3": "Visual Studio Code",
+                        "answer4": "Neovim (Vim)"
+                    },
+                    {
+                        "index": 5,
+                        "time": 321,
+                        "rightAnswer": 2,
+                        "question": "Welche Dunder-Methode wird als Destruktor einer Klasse verwendet?",
+                        "answer1": "__init__",
+                        "answer2": "__del__",
+                        "answer3": "__add__",
+                        "answer4": "__len__"
+                    },
+                    {
+                        "index": 6,
+                        "time": 439,
+                        "rightAnswer": 3,
+                        "question": "Welche Dunder-Methode ermöglicht die Addition von Objekten mit dem '+' Operator?",
+                        "answer1": "__sub__",
+                        "answer2": "__mul__",
+                        "answer3": "__add__",
+                        "answer4": "__div__"
+                    },
+                    {
+                        "index": 7,
+                        "time": 613,
+                        "rightAnswer": 4,
+                        "question": "Welche Fehlermeldung erscheint, wenn man versucht, zwei Vektor-Objekte ohne definierte Addition zu addieren?",
+                        "answer1": "TypeError: unsupported operands",
+                        "answer2": "ValueError: invalid operation",
+                        "answer3": "RuntimeError: vector addition not defined",
+                        "answer4": "TypeError: unsupported operand type(s) for +: 'Vector' and 'Vector'"
+                    },
+                    {
+                        "index": 8,
+                        "time": 803,
+                        "rightAnswer": 1,
+                        "question": "Welche Dunder-Methode wird verwendet, um die String-Repräsentation eines Objekts zu definieren, wenn `print()` aufgerufen wird?",
+                        "answer1": "__str__",
+                        "answer2": "__repr__",
+                        "answer3": "__len__",
+                        "answer4": "__call__"
+                    },
+                    {
+                        "index": 9,
+                        "time": 812,
+                        "rightAnswer": 2,
+                        "question": "Welche Dunder-Methode wird verwendet, um die 'offizielle' String-Repräsentation eines Objekts zu definieren?",
+                        "answer1": "__str__",
+                        "answer2": "__repr__",
+                        "answer3": "__len__",
+                        "answer4": "__call__"
+                    },
+                    {
+                        "index": 10,
+                        "time": 957,
+                        "rightAnswer": 3,
+                        "question": "Welche Dunder-Methode wird aufgerufen, wenn die `len()` Funktion auf ein Objekt angewendet wird?",
+                        "answer1": "__str__",
+                        "answer2": "__repr__",
+                        "answer3": "__len__",
+                        "answer4": "__call__"
+                    },
+                    {
+                        "index": 11,
+                        "time": 1041,
+                        "rightAnswer": 4,
+                        "question": "Welche Dunder-Methode wird aufgerufen, wenn ein Objekt wie eine Funktion aufgerufen wird?",
+                        "answer1": "__str__",
+                        "answer2": "__repr__",
+                        "answer3": "__len__",
+                        "answer4": "__call__"
+                    }
+                ]
+            }
+        ],
+        "hard": [
+            {
+                "index": 1,
+                "URL": "https://www.youtube.com/watch?v=Gx5qb1uHss4",
+                "title": "10 Python Konzepte, die du kennen solltest (Deutsch)",
+                "questions": [
+                    {
+                        "index": 1,
+                        "time": 14,
+                        "rightAnswer": 1,
+                        "question": "Welche Dateiendung wird für Python-Skriptdateien verwendet?",
+                        "answer1": ".py",
+                        "answer2": ".python",
+                        "answer3": ".p",
+                        "answer4": ".script"
+                    },
+                    {
+                        "index": 2,
+                        "time": 35,
+                        "rightAnswer": 2,
+                        "question": "Wie deklariert man eine Variable in Python?",
+                        "answer1": "var name = 'Bob';",
+                        "answer2": "name = 'Bob'",
+                        "answer3": "string name = 'Bob';",
+                        "answer4": "'Bob' -> name"
+                    },
+                    {
+                        "index": 3,
+                        "time": 133,
+                        "rightAnswer": 3,
+                        "question": "Welcher der folgenden ist KEIN grundlegender Datentyp in Python?",
+                        "answer1": "Integer",
+                        "answer2": "Float",
+                        "answer3": "Character",
+                        "answer4": "Boolean"
+                    },
+                    {
+                        "index": 4,
+                        "time": 227,
+                        "rightAnswer": 2,
+                        "question": "Welche Eigenschaft haben Tupel im Vergleich zu Listen?",
+                        "answer1": "Sie sind veränderlich (mutable).",
+                        "answer2": "Sie sind unveränderlich (immutable).",
+                        "answer3": "Sie können keine Duplikate enthalten.",
+                        "answer4": "Sie verwenden geschweifte Klammern."
+                    },
+                    {
+                        "index": 5,
+                        "time": 251,
+                        "rightAnswer": 4,
+                        "question": "Welche Datenstruktur in Python garantiert, dass alle Elemente einzigartig sind?",
+                        "answer1": "List",
+                        "answer2": "Tuple",
+                        "answer3": "Dictionary",
+                        "answer4": "Set"
+                    },
+                    {
+                        "index": 6,
+                        "time": 291,
+                        "rightAnswer": 1,
+                        "question": "Wie repräsentiert man Schlüssel-Werte-Paare in Python?",
+                        "answer1": "Dictionary",
+                        "answer2": "List",
+                        "answer3": "Tuple",
+                        "answer4": "Set"
+                    },
+                    {
+                        "index": 7,
+                        "time": 302,
+                        "rightAnswer": 2,
+                        "question": "Sind Typ-Annotationen in Python verpflichtend?",
+                        "answer1": "Ja, sie müssen immer verwendet werden.",
+                        "answer2": "Nein, sie sind optional.",
+                        "answer3": "Sie sind nur für fortgeschrittene Projekte notwendig.",
+                        "answer4": "Sie werden nur in bestimmten IDEs unterstützt."
+                    },
+                    {
+                        "index": 8,
+                        "time": 371,
+                        "rightAnswer": 3,
+                        "question": "Welchen Vorteil bieten Typ-Annotationen hauptsächlich?",
+                        "answer1": "Sie beschleunigen die Ausführung des Programms.",
+                        "answer2": "Sie reduzieren die Größe der kompilierten Datei.",
+                        "answer3": "Sie helfen bei der Fehlererkennung während der Entwicklung.",
+                        "answer4": "Sie ermöglichen die Verwendung von statischer Typisierung zur Laufzeit."
+                    },
+                    {
+                        "index": 9,
+                        "time": 417,
+                        "rightAnswer": 2,
+                        "question": "Was ist die Analogie, die der Sprecher für Typ-Annotationen verwendet?",
+                        "answer1": "Ein Sicherheitsgurt im Auto",
+                        "answer2": "Eine Ampel im Straßenverkehr",
+                        "answer3": "Ein Bauplan für ein Haus",
+                        "answer4": "Eine Bedienungsanleitung für ein Gerät"
+                    },
+                    {
+                        "index": 10,
+                        "time": 500,
+                        "rightAnswer": 1,
+                        "question": "Wie kennzeichnet man eine Variable in Python üblicherweise als Konstante?",
+                        "answer1": "Durch die Verwendung von Großbuchstaben im Variablennamen.",
+                        "answer2": "Durch das Schlüsselwort `const` vor der Variablendeklaration.",
+                        "answer3": "Python hat keine Möglichkeit, Konstanten zu definieren.",
+                        "answer4": "Durch die Verwendung von Unterstrichen am Anfang des Variablennamens."
+                    },
+                    {
+                        "index": 11,
+                        "time": 512,
+                        "rightAnswer": 4,
+                        "question": "Welches Modul aus der `typing`-Bibliothek kann verwendet werden, um eine Konstante mit Typ-Annotation zu deklarieren?",
+                        "answer1": "Constant",
+                        "answer2": "Immutable",
+                        "answer3": "FinalType",
+                        "answer4": "Final"
+                    },
+                    {
+                        "index": 12,
+                        "time": 616,
+                        "rightAnswer": 2,
+                        "question": "Welches Schlüsselwort wird in Python verwendet, um eine Funktion zu definieren?",
+                        "answer1": "define",
+                        "answer2": "def",
+                        "answer3": "function",
+                        "answer4": "fun"
+                    },
+                    {
+                        "index": 13,
+                        "time": 727,
+                        "rightAnswer": 3,
+                        "question": "Welche Rolle spielt die Einrückung (Indentation) in Python?",
+                        "answer1": "Sie dient lediglich der besseren Lesbarkeit.",
+                        "answer2": "Sie optimiert die Ausführung des Codes.",
+                        "answer3": "Sie definiert Codeblöcke.",
+                        "answer4": "Sie wird nur innerhalb von Kommentaren verwendet."
+                    },
+                    {
+                        "index": 14,
+                        "time": 800,
+                        "rightAnswer": 1,
+                        "question": "Wie übergibt man Parameter an eine Funktion in Python?",
+                        "answer1": "Innerhalb der Klammern bei der Funktionsdefinition.",
+                        "answer2": "Durch globale Variablen, die innerhalb der Funktion deklariert werden.",
+                        "answer3": "Mit dem Schlüsselwort `params` vor der Funktionsdefinition.",
+                        "answer4": "Parameter können in Python nicht explizit übergeben werden."
+                    },
+                    {
+                        "index": 15,
+                        "time": 853,
+                        "rightAnswer": 2,
+                        "question": "Welches Schlüsselwort wird verwendet, um einen Wert aus einer Funktion zurückzugeben?",
+                        "answer1": "output",
+                        "answer2": "return",
+                        "answer3": "yield",
+                        "answer4": "result"
+                    },
+                    {
+                        "index": 16,
+                        "time": 946,
+                        "rightAnswer": 3,
+                        "question": "Was ist ein 'return type' in der Funktionsdefinition?",
+                        "answer1": "Der Datentyp des Parameters, der an die Funktion übergeben wird.",
+                        "answer2": "Eine optionale Beschreibung der Funktion.",
+                        "answer3": "Der erwartete Datentyp des Wertes, den die Funktion zurückgibt.",
+                        "answer4": "Die Anzahl der Parameter, die die Funktion akzeptiert."
+                    },
+                    {
+                        "index": 17,
+                        "time": 957,
+                        "rightAnswer": 4,
+                        "question": "Welchen Rückgabetyp hat eine Funktion, die explizit `return None` verwendet?",
+                        "answer1": "String",
+                        "answer2": "Integer",
+                        "answer3": "Boolean",
+                        "answer4": "None"
+                    },
+                    {
+                        "index": 18,
+                        "time": 1003,
+                        "rightAnswer": 1,
+                        "question": "Wofür steht die Abkürzung OOP im Kontext von Programmierung?",
+                        "answer1": "Objektorientierte Programmierung",
+                        "answer2": "Optische Objekt-Prozedur",
+                        "answer3": "Organisierte Programm-Objekte",
+                        "answer4": "Operationelle Programm-Orientierung"
+                    },
+                    {
+                        "index": 19,
+                        "time": 1005,
+                        "rightAnswer": 2,
+                        "question": "Was ist eine Klasse in der objektorientierten Programmierung?",
+                        "answer1": "Eine spezifische Ausführung eines Programms.",
+                        "answer2": "Ein Bauplan oder eine Vorlage für Objekte.",
+                        "answer3": "Ein einzelner Wert, der einer Variablen zugewiesen ist.",
+                        "answer4": "Eine Sammlung von Funktionen ohne Bezug zueinander."
+                    },
+                    {
+                        "index": 20,
+                        "time": 1017,
+                        "rightAnswer": 3,
+                        "question": "Welches Schlüsselwort wird in Python verwendet, um eine Klasse zu definieren?",
+                        "answer1": "object",
+                        "answer2": "blueprint",
+                        "answer3": "class",
+                        "answer4": "type"
+                    },
+                    {
+                        "index": 21,
+                        "time": 1041,
+                        "rightAnswer": 1,
+                        "question": "Wozu dient der Initialisierer (`__init__`) in einer Klasse?",
+                        "answer1": "Zum Einrichten einer neuen Instanz der Klasse.",
+                        "answer2": "Zum Löschen einer Instanz der Klasse.",
+                        "answer3": "Zum Definieren von Konstanten innerhalb der Klasse.",
+                        "answer4": "Zum Importieren anderer Module in die Klasse."
+                    },
+                    {
+                        "index": 22,
+                        "time": 1053,
+                        "rightAnswer": 4,
+                        "question": "Welches Schlüsselwort wird verwendet, um auf die aktuelle Instanz einer Klasse innerhalb von Methoden zuzugreifen?",
+                        "answer1": "this",
+                        "answer2": "inst",
+                        "answer3": "cls",
+                        "answer4": "self"
+                    },
+                    {
+                        "index": 23,
+                        "time": 1115,
+                        "rightAnswer": 2,
+                        "question": "Was ist eine 'Instanz einer Klasse'?",
+                        "answer1": "Die Definition der Klasse selbst.",
+                        "answer2": "Ein konkretes Objekt, das nach der Vorlage der Klasse erstellt wurde.",
+                        "answer3": "Eine Methode, die innerhalb der Klasse definiert ist.",
+                        "answer4": "Ein Attribut, das allen Objekten der Klasse gemeinsam ist."
+                    },
+                    {
+                        "index": 24,
+                        "time": 1246,
+                        "rightAnswer": 3,
+                        "question": "Was ist eine 'Methode' im Kontext von Klassen?",
+                        "answer1": "Eine Variable, die innerhalb der Klasse definiert ist.",
+                        "answer2": "Ein Konstruktor zum Erstellen von Objekten.",
+                        "answer3": "Eine Funktion, die innerhalb einer Klasse definiert ist.",
+                        "answer4": "Ein Mechanismus zur Vererbung von Eigenschaften."
+                    },
+                    {
+                        "index": 25,
+                        "time": 1333,
+                        "rightAnswer": 1,
+                        "question": "Welche Rolle spielt das `self`-Schlüsselwort beim Aufruf von Attributen innerhalb einer Methode?",
+                        "answer1": "Es ermöglicht den Zugriff auf Attribute der spezifischen Instanz.",
+                        "answer2": "Es kennzeichnet Attribute, die für alle Instanzen der Klasse gleich sind.",
+                        "answer3": "Es dient dazu, neue Attribute innerhalb der Methode zu definieren.",
+                        "answer4": "Es ist optional und kann weggelassen werden."
+                    },
+                    {
+                        "index": 26,
+                        "time": 1436,
+                        "rightAnswer": 2,
+                        "question": "Wie definiert man zusätzliche Parameter in einer Methode nach dem `self`-Parameter?",
+                        "answer1": "Sie werden durch Kommata getrennt vor dem `self`-Parameter definiert.",
+                        "answer2": "Sie werden durch Kommata getrennt nach dem `self`-Parameter definiert.",
+                        "answer3": "Zusätzliche Parameter werden in geschweiften Klammern nach `self` angegeben.",
+                        "answer4": "Es ist nicht möglich, zusätzliche Parameter in Methoden zu definieren."
+                    },
+                    {
+                        "index": 27,
+                        "time": 1518,
+                        "rightAnswer": 4,
+                        "question": "Was sind 'Dunder Methods'?",
+                        "answer1": "Methoden, die nur in der Basisklasse definiert werden können.",
+                        "answer2": "Methoden ohne Parameter.",
+                        "answer3": "Abkürzung für 'Data Under Methods'.",
+                        "answer4": "Methoden mit doppelten Unterstrichen am Anfang und Ende des Namens."
+                    },
+                    {
+                        "index": 28,
+                        "time": 1552,
+                        "rightAnswer": 1,
+                        "question": "Welche Dunder-Methode wird aufgerufen, wenn man versucht, ein Objekt mit der `print()`-Funktion auszugeben?",
+                        "answer1": "__str__",
+                        "answer2": "__repr__",
+                        "answer3": "__init__",
+                        "answer4": "__add__"
+                    },
+                    {
+                        "index": 29,
+                        "time": 1628,
+                        "rightAnswer": 4,
+                        "question": "Welche Dunder-Methode ermöglicht die Verwendung des '+' Operators zur Addition von Objekten?",
+                        "answer1": "__sub__",
+                        "answer2": "__mul__",
+                        "answer3": "__div__",
+                        "answer4": "__add__"
+                    },
+                    {
+                        "index": 30,
+                        "time": 1650,
+                        "rightAnswer": 3,
+                        "question": "Welche Typ-Annotation wird im Video für den `other`-Parameter der `__add__`-Methode empfohlen, um Code-Vervollständigungen zu erhalten?",
+                        "answer1": "Any",
+                        "answer2": "object",
+                        "answer3": "self",
+                        "answer4": "Car"
                     }
                 ]
             }
