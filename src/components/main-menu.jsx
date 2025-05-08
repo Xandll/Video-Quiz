@@ -2,21 +2,23 @@ import './main-menu.css';
 import React, { useState } from 'react';
 
 export default function MainMenu({ onStart }) {
-    return (
-        <main>
-            <div className='difficulty-selection'>
-                <h1>Choose Difficulty</h1>
-                <div className='difficulty-buttons'>
-                    <button className='easy' onClick={() => onStart('easy')}>Easy</button>
-                    <button className='medium' onClick={() => onStart('medium')}>Medium</button>
-                    <button className='hard' onClick={() => onStart('hard')}>Hard</button>
-                </div>
-                <div className='difficulty-description'>
-                    <p>Easy: 5 questions, 30 seconds each</p>
-                    <p>Medium: 10 questions, 20 seconds each</p>
-                    <p>Hard: 15 questions, 15 seconds each</p>
-                </div>
+    function redirect(){
+        document.getElementsByClassName("easy").addEventListener("click", function(){
+            window.location.href = "https://www.youtube.com/watch?v=2Vv-BfVoq4g&ab_channel=EdSheeran-Topic";
+        });
+    }
+    return(
+        <body>
+            <header>
+                <div></div>
+                <h1>Video-Quiz</h1>
+                <div><img src=".\logo.png" alt="logo"/></div>
+            </header>
+            <div className="menu">
+                <button className="easy">Easy</button>
+                <button className="medium">Medium</button>
+                <button className="hard">Hard</button>
             </div>
-        </main>
+        </body>
     )
 }
