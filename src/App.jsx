@@ -5,7 +5,7 @@ import MainMenu from './components/main-menu.jsx';
 export default function App() {
   return (
     <div className="App">
-      <VideoPlayer/>
+      <MainMenu/>
     </div>
   );
 }
