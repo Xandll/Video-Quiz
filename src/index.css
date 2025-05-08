@@ -5,9 +5,52 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #282c34;
+  color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.answers-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    justify-items: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+.answers-grid button {
+    min-width: 180px;      /* Mindestbreite, aber flexibel */
+    min-height: 60px;      /* Mindesthöhe, aber flexibel */
+    padding: 16px 32px;    /* Mehr Platz um den Text */
+    font-size: 1.2em;
+    width: auto;           /* Automatische Breite */
+    height: auto;          /* Automatische Höhe */
+    box-sizing: border-box;
+    word-break: break-word; /* Zeilenumbruch bei langem Text */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.popup-container {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(74,74,74,0.98); /* oder dein gewünschtes Grau */
+    z-index: 1000;
 }

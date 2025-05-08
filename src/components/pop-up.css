@@ -1,12 +1,98 @@
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(74, 74, 74, 0.98);
+    z-index: 1000;
+}
+
+.popup-container h3 {
+    margin-bottom: 25px;
+    font-size: 1.5em;
+}
+
+.answers-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    justify-items: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+.popup-container button {
+    background-color: #333333;
+    color: white;
+    border: none;
+    min-width: 180px;
+    min-height: 60px;
+    padding: 16px 32px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    word-break: break-word;
+    text-align: center;
+}
+
+.popup-container button:hover {
+    background-color: #2a2a2a;
+    transform: translateY(-2px);
+}
+
+.popup-container button:disabled {
+    background-color: #555555;
+    color: #aaaaaa;
+    cursor: not-allowed;
+    transform: none;
+}
+
 .wrong-answer {
     animation: shake 0.5s;
-    background-color: rgba(255, 0, 0, 0.2);
+    background-color: #D32F2F !important;
 }
 
 @keyframes shake {
-    0% { transform: translateX(0); }
-    25% { transform: translateX(5px); }
-    50% { transform: translateX(-5px); }
-    75% { transform: translateX(5px); }
-    100% { transform: translateX(0); }
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-8px); }
+    50% { transform: translateX(8px); }
+    75% { transform: translateX(-8px); }
+}
+
+.feedback-message {
+    margin-top: 32px;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 8px;
+    min-width: 180px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: background 0.2s, color 0.2s;
+}
+
+.feedback-message.correct {
+    background: #2ecc40;
+    color: #fff;
+}
+
+.feedback-message.wrong {
+    background: #e74c3c;
+    color: #fff;
 }

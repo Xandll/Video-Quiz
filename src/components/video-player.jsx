@@ -52,25 +52,27 @@ export default function VideoPlayer() {
   };
 
   return (
-    <div className="react-player-wrapper">
-      <ReactPlayer
-        ref={playerRef}
-        url={data.Python.easy[0].URL}
-        light={true}
-        playing={isPlaying}
-        width="90%"
-        height="90vh"
-        onProgress={(state) => {
-          const questions = data.Python.easy[0].questions;
-          const question = questions[currentQuestionIndex];
-          if (question && state.playedSeconds > question.time) {
-            playerRef.current?.seekTo(question.time);
-            setIsPlaying(false);
-            setShowPopUp(true);
-            setCurrentQuestion(question);
-          }
-        }}
-      />
+    <>
+      <div className={`react-player-wrapper ${showPopUp ? "video-hidden" : ""}`}>
+        <ReactPlayer
+          ref={playerRef}
+          url={data.Python.easy[0].URL}
+          light={true}
+          playing={isPlaying}
+          width="90%"
+          height="90vh"
+          onProgress={(state) => {
+            const questions = data.Python.easy[0].questions;
+            const question = questions[currentQuestionIndex];
+            if (question && state.playedSeconds > question.time) {
+              playerRef.current?.seekTo(question.time);
+              setIsPlaying(false);
+              setShowPopUp(true);
+              setCurrentQuestion(question);
+            }
+          }}
+        />
+      </div>
       {showPopUp && currentQuestion && (
         <PopUp
           question={currentQuestion.question}
@@ -81,6 +83,6 @@ export default function VideoPlayer() {
           onAnswer={handleAnswer}
         />
       )}
-    </div>
+    </>
   );
 }

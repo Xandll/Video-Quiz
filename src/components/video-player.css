@@ -3,5 +3,9 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
+    height: 100vh; /* Ensure full viewport height */
+}
+
+.video-hidden {
+    display: none !important;
 }
